@@ -32,6 +32,7 @@ const BASE_RULES_TO_BE_OVERRIDDEN = new Set([
   'no-magic-numbers',
   'quotes',
   'no-unused-vars',
+  'no-unused-expressions',
   'no-use-before-define',
   'no-useless-constructor',
   'require-await',

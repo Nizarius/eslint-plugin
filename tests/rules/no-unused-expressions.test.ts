@@ -27,6 +27,9 @@ ruleTester.run('no-unused-expressions', rule, {
     `
       test.age?.toLocaleString();
     `,
+    `
+      f?.a();
+    `,
   ],
   invalid: [
     {
